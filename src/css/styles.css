@@ -1,0 +1,98 @@
+/* Стили для loader */
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 32px;
+  color: #3bb15e;
+}
+
+.loader img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Стили для cat-info */
+.cat-info {
+  display: none;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.cat-info img {
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.cat-info h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.cat-info p {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #444;
+}
+
+/* Стили для error */
+.error {
+  display: none;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #ff5733;
+}
+
+/* Стили для breed-select */
+.breed-select {
+  font-size: 18px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Стили для инпута */
+.input-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.input-label {
+  font-size: 18px;
+  margin-right: 10px;
+  color: #444;
+}
+
+/* Стили для кнопки */
+.submit-btn {
+  font-size: 18px;
+  padding: 8px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #2980b9;
+}
