@@ -61,6 +61,7 @@
 
 /* Стили для breed-select */
 .breed-select {
+  background: #a19696;
   font-size: 18px;
   padding: 8px;
   border: 1px solid #ccc;
